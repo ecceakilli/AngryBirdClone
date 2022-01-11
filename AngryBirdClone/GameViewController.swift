@@ -26,8 +26,8 @@ class GameViewController: UIViewController {
             
             view.ignoresSiblingOrder = true
             
-            view.showsFPS = true
-            view.showsNodeCount = true
+            //cismin etki ettigi alanı görebilmek için cismin etrafında mavi cizgi cizer canlıya cıkınca kaldırmayı unutma
+            view.showsPhysics = true
         }
     }
 
